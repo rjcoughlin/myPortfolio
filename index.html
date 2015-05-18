@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+    <meta name="description" content="Ryan Coughlin's portfolio website">
+	<meta name="keywords" content="ryan,coughlin,web design,graphic design,freelance,designer,developer,photographer,portfolio,">
+	<meta name="author" content="Ryan Coughlin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Ryan Coughlin</title>
+	<link rel="icon" type="image/png" href="/img/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel="stylesheet" type='text/css'>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/custom-grid.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/vendor/modernizr.custom.js"></script>
+</head>
+
+<body>
+	<!--nav-->
+		<div class="sticky">
+			<nav class="top-bar" data-topbar role="navigation">
+				<ul class="title-area">
+					<li class="name">
+						<h1><a href="#home">Ryan Coughlin</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+					</li>
+				</ul>
+				<section class="top-bar-section">
+					<ul class="right">
+						<li><a href="#about">About</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</section>
+			</nav>
+		</div>
+		<!--end nav-->
+	<div class="container">		
+	 
+		<!--start parallax-->
+			<div id="home" class="image"></div>
+		<!--end parallax-->
+		 
+		<div class="row">
+			<div class="large-12 columns">
+				<div id="about">
+					<h2>About</h2>
+					<div class="row">
+						<div class="large-6 columns">
+							<p>Hello, my name is Ryan Joseph Coughlin. I am a Graphic and Web design candidate at The Art Institute of California – San Francisco. Throughout my educational experience, I have gained knowledge and proficiency in many of Abode’s products such as Premiere, Prelude, Photoshop, InDesign, Illustrator, and DreamWeaver.</p>
+						</div>
+						<div class="large-6 columns">
+							<p>Though I am only over a year into my graphic and web design career, I have been creative my whole life. When I’m not working on schoolwork, you will likely find me with a pencil or camera in my hand.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--GALLERY START-->
+		<div class="row">
+			<div class="large-12 columns">
+				<div id="work">
+					<h2>Work</h2>
+					<div id="projects"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--GALLERY END-->
+		<div class="row">
+			<div class="large-12 columns">
+				<div id="contact">
+					<h2>Hit me up!</h2>
+					<form id="contact" action="forms/mailer.php" method="post">
+						<fieldset>
+							<input placeholder="Your name" type="text" name="name" id="name" tabindex="1" required autofocus>
+						</fieldset>
+						<fieldset>
+							<input placeholder="Your Email Address" type="email" name="email" id="email" tabindex="2" required>
+						</fieldset>
+						<fieldset>
+							<textarea placeholder="Type your Message Here...." name="message" id="message" tabindex="5" required></textarea>
+						</fieldset>
+						<fieldset>
+							<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="row">
+		<hr/>
+
+		<div class="large-6 columns">
+			<p>© Copyright Ryan Coughlin</p>
+		</div>
+		<!--social start-->
+		<div class="large-6 columns">
+			 
+				<a class="social" href="https://www.facebook.com/ryan.coughlin.777" target="_blank"><img alt="" src="img/social/facebook-bw.jpg" /><img alt="" src="img/social/facebook-hover.jpg" />
+				</a>
+				<a class="social" href="https://twitter.com/RyanJCoughlin" target="_blank"><img alt="" src="img/social/twitter-bw.jpg" /><img alt="" src="img/social/twitter-hover.jpg" />
+				</a>
+				<a class="social" href="http://www.linkedin.com/in/rjcoughlin" target="_blank"><img alt="" src="img/social/linkedin-bw.jpg" /><img alt="" src="img/social/linkedin-hover.jpg" />
+				</a>
+				<a class="social" href="http://www.instagram.com/rjcoughlin" target="_blank"><img alt="" src="img/social/instagram-bw.jpg" /><img alt="" src="img/social/instagram-hover.jpg" />
+				</a>
+			 
+		</div>
+		<!--social end-->
+	</footer>
+
+	<!-----------------------------------script--------------------------------------->
+	<!--<script src="js/vendor/jquery-2.1.1.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/foundation/foundation.min.js"></script>
+	<script src="js/components/classie.js"></script>
+	<script src="js/vendor/elastic_grid.min.js"></script>
+	<script src="js/components/projects.js"></script>
+	<script src="js/components/nav-scrollto.js"></script>
+	<script>
+		$(document).foundation({
+
+		});
+	</script>
+    <!--Google Analytics Code-->
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-61415357-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>

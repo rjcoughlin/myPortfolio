@@ -1,0 +1,242 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andrew Vilaysak</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>
+<script src="respond.min.js"></script>
+<script src="responsive-nav.js"></script>
+<script src="jquery.js"></script>
+
+<body>  
+<div class="gridContainer clearfix">
+  <div id="div1" class="fluid">
+  <div class="andy"><img src="images/andyHead.png" alt="A piture of Andrew"/></div>
+  <div id="home">
+<nav class="nav-collapse">
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#photography">Photography</a></li>
+		<li><a href="#illustrations">Illustrations</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+<img src="images/banner.png" alt="A preview of andrews photography"/>
+	</div>
+  </div>
+  <div id="div1" class="fluid">
+  <div id="about">
+  <h2>About</h2>
+<div class="textLeft">
+<p>Hello! My name is Andrew Vilaysak. I have been a photographer for three years and an illustrator since kindergarden. I am a Bay Area Based Artist/Photographer. All Original Content. I have always had a passion for the simplistic little things in design and the world around me. I see thing diffrently, I always try to embrace every situation with a wide prospective. </p>
+</div>
+<div class="textRight">
+<p>Words cannot discribe my vision and my style when it come to my work. To really see how I see. Please view the gallerys belove to see my prospective. If you think we would work well togeather.. feel free to shoot me an email! I love to explore and I doing new things. </p>
+</div>
+</div>
+</div>
+<!--PHOTO GALLERY-->
+<div id="div1" class="fluid"><div id="photography">
+<h2>Photography</h2>
+	<div class="gallery cf">
+  <div>
+    <img src="photos/bayBridge.png" />
+  </div>
+  <div>
+    <img src="photos/beach.png" />
+  </div>
+  <div>
+    <img src="photos/fog.png" />
+  </div>
+  <div>
+    <img src="photos/nyc.png" />
+  </div>
+  <div>
+    <img src="photos/riples.png" />
+  </div>
+  <div>
+    <img src="photos/skulls.png" />
+  </div>
+  <div>
+    <img src="photos/skyline.png" />
+  </div>
+  <div>
+    <img src="photos/fogTree.png" />
+  </div>
+  <div>
+    <img src="photos/tranAmer.png" />
+  </div>
+	</div>
+    </div>
+</div>
+<!--END PHOTO GALLERY-->
+<!--ILL GALLERY-->
+<div id="div1" class="fluid"><div id="illustrations">
+<h2>Illustrations</h2>
+	<div class="gallery cf">
+  <div>
+    <img src="illustrations/doom.png" />
+  </div>
+  <div>
+    <img src="illustrations/horn.png" />
+  </div>
+  <div>
+    <img src="illustrations/fuzz.png" />
+  </div>
+  <div>
+    <img src="illustrations/handsUpFurg.png" />
+  </div>
+  <div>
+    <img src="illustrations/paperBags.png" />
+  </div>
+  <div>
+    <img src="illustrations/shroom.png" />
+  </div>
+  <div>
+    <img src="illustrations/smoke.png" />
+  </div>
+  <div>
+    <img src="illustrations/wolf.png" />
+  </div>
+	</div>
+    </div>
+</div>
+<!--END ILL GALLERY-->
+<!--CONTACT FORM-->
+<div id="div1" class="fluid"><div id="contact">
+<form id="contact" action="" method="post">
+    <h2>Hit me up!</h2>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+</div>
+<!--END CONTACT FORM-->
+</div>
+<footer>Website &copy; Andrew Vilaysak 
+<!-- Social Icons Start !-->
+<div class="socialw fadeInDown">  
+	<!-- Behance !-->
+	<a href="http://behance.com/" target="_blank">		
+    <div class="social"> <img src="http://i.imgur.com/fkuhUov.png"/></div>
+	</a>
+	<!-- Behance !-->
+	<!-- Facebook !-->
+	<a href="http://facebook.com/" target="_blank">		
+    <div class="social"><img src="http://i.imgur.com/PY2EPRW.png"/></div>
+	</a>
+	<!-- Facebook !-->
+	<!-- Twitter !-->
+	<a href="http://twitter.com/" target="_blank">		
+    <div class="social"> <img src="http://i.imgur.com/ny0pyqt.png"/> </div>
+	</a>
+	<!-- Twitter !-->
+	<!-- Intagram !-->
+	<a href="http://instagram.com/andrewvilaysak" target="_blank">		
+    <div class="social"> <img src="http://i.imgur.com/tZZG2zQ.png"/></div>
+	</a>
+	<!-- Instagram !-->
+	</div>
+<!-- Social Icons End !-->
+</footer>
+<!--Script for responisve nav-->
+<script>
+var nav = responsiveNav(".nav-collapse", { // Selector
+  animate: true, // Boolean: Use CSS3 transitions, true or false
+  transition: 284, // Integer: Speed of the transition, in milliseconds
+  label: "Menu", // String: Label for the navigation toggle
+  insert: "before", // String: Insert the toggle before or after the navigation
+  customToggle: "", // Selector: Specify the ID of a custom toggle
+  closeOnNavClick: false, // Boolean: Close the navigation when one of the links are clicked
+  openPos: "relative", // String: Position of the opened nav, relative or static
+  navClass: "nav-collapse", // String: Default CSS class. If changed, you need to edit the CSS too!
+  navActiveClass: "js-nav-active", // String: Class that is added to  element when nav is active
+  jsClass: "js", // String: 'JS enabled' class which is added to  element
+  init: function(){}, // Function: Init callback
+  open: function(){}, // Function: Open callback
+  close: function(){} // Function: Close callback
+});
+</script>
+<!--Script for Smooth Glide-->
+<script src="jquery.js"></script> 
+<script>
+ $('li').on('click', 'a', function () {
+
+     $(".active").removeClass("active");
+
+     $(this).addClass("active");
+
+     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+         var $target = $(this.hash);
+         $target = $target.length && $target || $('[href=' + this.hash.slice(1) + ']');
+         if ($target.length) {
+             var targetOffset = $target.offset().top;
+             console.log(targetOffset, $target);
+
+
+             $('html,body').animate({
+                 scrollTop: targetOffset - 60
+             }, 500);
+
+             return false;
+         }
+     }
+ });
+ 
+ $(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+
+ var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '600',
+          videoId: 'oIJ96xtqRf4',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+      function onPlayerReady(event) {
+        event.target.pauseVideo();
+      }
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+</script>
+</body>
+</html>
